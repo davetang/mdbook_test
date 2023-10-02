@@ -7,3 +7,10 @@ title = "My First Book"
 
 [rust]
 edition = "2021"
+
+[output.html.playground]
+editable = true         # allows editing the source code
+copyable = true          # include the copy button for copying code snippets
+copy-js = true           # includes the JavaScript for the code editor
+line-numbers = true     # displays line numbers for editable code
+runnable = true          # displays a run button for rust code
