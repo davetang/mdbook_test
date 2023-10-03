@@ -1,6 +1,6 @@
-fn main() {
-	 use std::collections::HashMap;
+use std::collections::HashMap;
 
+fn main() {
 	 let text = "hello world wonderful world";
 
 	 let mut map = HashMap::new();
